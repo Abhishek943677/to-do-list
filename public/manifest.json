@@ -1,25 +1,48 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+    "name": "TO DO List",
+    "short_name": "TO DO List",
+    "description": "Manage tasks efficiently with our intuitive to-do list app. Stay organized, prioritize your goals, and increase productivity with easy task management. Access your to-do list anytime, anywhere, and never forget an important task again. Try our to-do list app now and streamline your daily workflow",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/favicon.ico",
+            "sizes": "any",
+            "purpose": "maskable"
+        },
+       
+        {
+            "src": "/android-icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image\/png",
+            "density": "1.5"
+        },
+        {
+            "src": "/android-icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image\/png",
+            "density": "2.0"
+        },
+        {
+            "src": "/android-icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image\/png",
+            "density": "3.0"
+        }
+    ],
+    
+    "start_url": ".",
+    "theme_color": "#01c3dd",
+    "background_color": "#01c3dd",
+    "display": "standalone"
 }
